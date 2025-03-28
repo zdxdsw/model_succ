@@ -1,0 +1,45 @@
+------------- Preparing RNN model -------------
+Total parameters: 704
+Trainable parameters: 704
+Optimizer group 0 | 6 tensors
+------------- Preparing data -------------
+max_seen_len for dyck1_3 = 20
+num train = 100000
+num val = 10000
+------------ Start job 0328_010141 ------------
+num_test = 10000
+Epoch 0 Step 0 
+                        | Val Loss: 1.6106 
+                        | Val Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val_20_40.txt
+                            | Test Loss: 1.6094
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val_40_60.txt
+                            | Test Loss: 1.6094
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 3125 
+                    | Val Loss: 0.5206 
+                    | Val Acc: 0.7698
+num_test = 10000
+Epoch 0 Step 3125 val_20_40.txt
+                    | Test Loss: 0.9075
+                    | Test Acc: 0.5456
+num_test = 10000
+Epoch 0 Step 3125 val_40_60.txt
+                    | Test Loss: 0.9617
+                    | Test Acc: 0.512
+num_test = 10000
+Epoch 1 Step 6250 
+                    | Val Loss: 0.4584 
+                    | Val Acc: 0.7623
+num_test = 10000
+Epoch 1 Step 6250 val_20_40.txt
+                    | Test Loss: 0.7089
+                    | Test Acc: 0.5686
+num_test = 10000
+Epoch 1 Step 6250 val_40_60.txt
+                    | Test Loss: 0.8325
+                    | Test Acc: 0.5185

@@ -1,0 +1,31 @@
+max_seen_len for dyck1_2 = 20 val acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.0007 
+                | Test Acc: 1.0
+             val_20_40 acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.0005 
+                | Test Acc: 1.0
+             val_40_60 acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.0005 
+                | Test Acc: 1.0
+            
+ val acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             val_20_40 acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             val_40_60 acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ val acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             val_20_40 acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             val_40_60 acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+Finish testing 0327_214014!

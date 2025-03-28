@@ -1,0 +1,146 @@
+------------- Preparing RNN model -------------
+Total parameters: 704
+Trainable parameters: 704
+Optimizer group 0 | 6 tensors
+------------- Preparing data -------------
+max_seen_len for dyck1_3 = 20
+num train = 100000
+num val = 10000
+------------ Start job 0327_231507 ------------
+num_test = 10000
+Epoch 0 Step 0 
+                        | Val Loss: 1.61 
+                        | Val Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val_20_40.txt
+                            | Test Loss: 1.6095
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val_40_60.txt
+                            | Test Loss: 1.6095
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 3125 
+                    | Val Loss: 0.0124 
+                    | Val Acc: 0.9981
+num_test = 10000
+Epoch 0 Step 3125 val_20_40.txt
+                    | Test Loss: 0.208
+                    | Test Acc: 0.9568
+num_test = 10000
+Epoch 0 Step 3125 val_40_60.txt
+                    | Test Loss: 0.4758
+                    | Test Acc: 0.9077
+num_test = 10000
+Epoch 1 Step 6250 
+                    | Val Loss: 0.0002 
+                    | Val Acc: 1.0
+num_test = 10000
+Epoch 1 Step 6250 val_20_40.txt
+                    | Test Loss: 0.0002
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 1 Step 6250 val_40_60.txt
+                    | Test Loss: 0.0001
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 2 Step 9375 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10000
+Epoch 2 Step 9375 val_20_40.txt
+                    | Test Loss: 0.0
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 2 Step 9375 val_40_60.txt
+                    | Test Loss: 0.0
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 3 Step 12500 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10000
+Epoch 3 Step 12500 val_20_40.txt
+                    | Test Loss: 0.0
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 3 Step 12500 val_40_60.txt
+                    | Test Loss: 0.0
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 4 Step 15625 
+                    | Val Loss: 0.0734 
+                    | Val Acc: 0.9858
+num_test = 10000
+Epoch 4 Step 15625 val_20_40.txt
+                    | Test Loss: 0.2232
+                    | Test Acc: 0.9288
+num_test = 10000
+Epoch 4 Step 15625 val_40_60.txt
+                    | Test Loss: 0.2792
+                    | Test Acc: 0.9103
+
+
+------------- Start Inference -------------
+max_seen_len for dyck1_3 = 20
+ val acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.0123 
+                | Test Acc: 0.9981
+            
+ val_20_40 acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.2083 
+                | Test Acc: 0.9568
+            
+ val_40_60 acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.4764 
+                | Test Acc: 0.9074
+            
+ val acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+            
+ val_20_40 acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+            
+ val_40_60 acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ val acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ val_20_40 acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ val_40_60 acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ val acc, load from 3_12500_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ val_20_40 acc, load from 3_12500_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ val_40_60 acc, load from 3_12500_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ val acc, load from 4_15625_RNN.pt
+                | Test Loss: 0.0735 
+                | Test Acc: 0.9858
+            
+ val_20_40 acc, load from 4_15625_RNN.pt
+                | Test Loss: 0.2224 
+                | Test Acc: 0.9288
+            
+ val_40_60 acc, load from 4_15625_RNN.pt
+                | Test Loss: 0.2795 
+                | Test Acc: 0.9103
+            
+Finish!!! 0327_231507

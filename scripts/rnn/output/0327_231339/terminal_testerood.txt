@@ -1,0 +1,51 @@
+max_seen_len for dyck1_2 = 20 val_dyck1_1 acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.0004 
+                | Test Acc: 1.0
+             val_dyck1_3 acc, load from 0_3125_RNN.pt
+                | Test Loss: 4.1096 
+                | Test Acc: 0.544
+             val_dyck1_4 acc, load from 0_3125_RNN.pt
+                | Test Loss: 4.5431 
+                | Test Acc: 0.5
+            
+ val_dyck1_1 acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             val_dyck1_3 acc, load from 1_6250_RNN.pt
+                | Test Loss: 4.7203 
+                | Test Acc: 0.544
+             val_dyck1_4 acc, load from 1_6250_RNN.pt
+                | Test Loss: 5.2122 
+                | Test Acc: 0.5
+            
+ val_dyck1_1 acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             val_dyck1_3 acc, load from 2_9375_RNN.pt
+                | Test Loss: 5.5412 
+                | Test Acc: 0.544
+             val_dyck1_4 acc, load from 2_9375_RNN.pt
+                | Test Loss: 6.1096 
+                | Test Acc: 0.5
+            
+ val_dyck1_1 acc, load from 3_12500_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             val_dyck1_3 acc, load from 3_12500_RNN.pt
+                | Test Loss: 6.3362 
+                | Test Acc: 0.544
+             val_dyck1_4 acc, load from 3_12500_RNN.pt
+                | Test Loss: 6.9847 
+                | Test Acc: 0.5
+            
+ val_dyck1_1 acc, load from 4_15625_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             val_dyck1_3 acc, load from 4_15625_RNN.pt
+                | Test Loss: 7.0463 
+                | Test Acc: 0.544
+             val_dyck1_4 acc, load from 4_15625_RNN.pt
+                | Test Loss: 7.766 
+                | Test Acc: 0.5
+            
+Finish testing 0327_231339!
