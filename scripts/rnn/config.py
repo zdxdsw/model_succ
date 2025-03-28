@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Basic_Config:
-    seed = 319
+    seed = 929
     model = "RNN"
     date = "debug"
     hf_cache_dir = '/data/yingshac/hf_cache'

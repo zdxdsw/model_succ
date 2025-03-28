@@ -43,3 +43,104 @@ num_test = 10000
 Epoch 1 Step 6250 val_40_60.txt
                     | Test Loss: 0.8325
                     | Test Acc: 0.5185
+num_test = 10000
+Epoch 2 Step 9375 
+                    | Val Loss: 0.4123 
+                    | Val Acc: 0.8066
+num_test = 10000
+Epoch 2 Step 9375 val_20_40.txt
+                    | Test Loss: 0.9342
+                    | Test Acc: 0.5756
+num_test = 10000
+Epoch 2 Step 9375 val_40_60.txt
+                    | Test Loss: 1.0714
+                    | Test Acc: 0.525
+num_test = 10000
+Epoch 3 Step 12500 
+                    | Val Loss: 0.2407 
+                    | Val Acc: 0.9181
+num_test = 10000
+Epoch 3 Step 12500 val_20_40.txt
+                    | Test Loss: 0.8505
+                    | Test Acc: 0.6888
+num_test = 10000
+Epoch 3 Step 12500 val_40_60.txt
+                    | Test Loss: 1.0395
+                    | Test Acc: 0.6166
+num_test = 10000
+Epoch 4 Step 15625 
+                    | Val Loss: 0.5324 
+                    | Val Acc: 0.7605
+num_test = 10000
+Epoch 4 Step 15625 val_20_40.txt
+                    | Test Loss: 0.854
+                    | Test Acc: 0.5657
+num_test = 10000
+Epoch 4 Step 15625 val_40_60.txt
+                    | Test Loss: 0.9032
+                    | Test Acc: 0.52
+
+
+------------- Start Inference -------------
+max_seen_len for dyck1_3 = 20
+ val acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.5198 
+                | Test Acc: 0.7698
+            
+ val_20_40 acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.9065 
+                | Test Acc: 0.5456
+            
+ val_40_60 acc, load from 0_3125_RNN.pt
+                | Test Loss: 0.9623 
+                | Test Acc: 0.512
+            
+ val acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.4586 
+                | Test Acc: 0.7623
+            
+ val_20_40 acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.709 
+                | Test Acc: 0.5686
+            
+ val_40_60 acc, load from 1_6250_RNN.pt
+                | Test Loss: 0.8326 
+                | Test Acc: 0.5185
+            
+ val acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.4115 
+                | Test Acc: 0.8066
+            
+ val_20_40 acc, load from 2_9375_RNN.pt
+                | Test Loss: 0.9336 
+                | Test Acc: 0.5756
+            
+ val_40_60 acc, load from 2_9375_RNN.pt
+                | Test Loss: 1.0709 
+                | Test Acc: 0.525
+            
+ val acc, load from 3_12500_RNN.pt
+                | Test Loss: 0.2403 
+                | Test Acc: 0.9182
+            
+ val_20_40 acc, load from 3_12500_RNN.pt
+                | Test Loss: 0.849 
+                | Test Acc: 0.6887
+            
+ val_40_60 acc, load from 3_12500_RNN.pt
+                | Test Loss: 1.04 
+                | Test Acc: 0.6165
+            
+ val acc, load from 4_15625_RNN.pt
+                | Test Loss: 0.5326 
+                | Test Acc: 0.7605
+            
+ val_20_40 acc, load from 4_15625_RNN.pt
+                | Test Loss: 0.8538 
+                | Test Acc: 0.5657
+            
+ val_40_60 acc, load from 4_15625_RNN.pt
+                | Test Loss: 0.903 
+                | Test Acc: 0.52
+            
+Finish!!! 0328_010141
