@@ -138,11 +138,10 @@ Print(f"max_seen_len for {args.task} = {args.max_seen_len}")
 collator = partial(sequences_collator, 
                     w2i={w:i for i,w in enumerate(config.vocab)}, 
                     max_seq_len=config.max_seq_len,
-                    #max_position_embeddings=config.max_seq_len,
-                    #augmentation=None,
                 )
 
-train_dataloader = DataLoader(train_data, shuffle=True, batch_size=config.per_device_train_batch_size, collate_fn=collator, pin_memory=True, num_workers=1, persistent_workers=False)
+print("config.shuffle_training_data = ", config.shuffle_training_data)
+train_dataloader = DataLoader(train_data, shuffle=config.shuffle_training_data, batch_size=config.per_device_train_batch_size, collate_fn=collator, pin_memory=True, num_workers=1, persistent_workers=False)
 val_dataloader = DataLoader(val_data, shuffle=False, batch_size=config.per_device_eval_batch_size, collate_fn=collator, pin_memory=True, num_workers=1, persistent_workers=False)
 
 Print(f"num train = {len(train_data)}")

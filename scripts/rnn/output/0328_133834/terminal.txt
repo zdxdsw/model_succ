@@ -1,0 +1,159 @@
+------------- Preparing RNN model -------------
+Total parameters: 704
+Trainable parameters: 704
+Optimizer group 0 | 6 tensors
+------------- Preparing data -------------
+max_seen_len for dyck1_1234 = 20
+config.shuffle_training_data =  False
+num train = 1200000
+num val = 10000
+------------ Start job 0328_133834 ------------
+num_test = 10000
+Epoch 0 Step 0 
+                        | Val Loss: 1.6176 
+                        | Val Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val.txt
+                            | Test Loss: 1.6176
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val_dyck1_2.txt
+                            | Test Loss: 1.614
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val_dyck1_3.txt
+                            | Test Loss: 1.6151
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val_dyck1_4.txt
+                            | Test Loss: 1.6177
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 0 val_dyck1_5.txt
+                            | Test Loss: 1.6173
+                            | Test Acc: 0.0
+num_test = 10000
+Epoch 0 Step 9375 
+                        | Val Loss: 0.0 
+                        | Val Acc: 1.0
+num_test = 10000
+Epoch 0 Step 9375 val.txt
+                            | Test Loss: 0.0
+                            | Test Acc: 1.0
+num_test = 10000
+Epoch 0 Step 9375 val_dyck1_2.txt
+                            | Test Loss: 5.1855
+                            | Test Acc: 0.5655
+num_test = 10000
+Epoch 0 Step 9375 val_dyck1_3.txt
+                            | Test Loss: 5.527
+                            | Test Acc: 0.544
+num_test = 10000
+Epoch 0 Step 9375 val_dyck1_4.txt
+                            | Test Loss: 6.0318
+                            | Test Acc: 0.5
+num_test = 10000
+Epoch 0 Step 9375 val_dyck1_5.txt
+                            | Test Loss: 6.0132
+                            | Test Acc: 0.5
+num_test = 10000
+Epoch 0 Step 18750 
+                        | Val Loss: 0.001 
+                        | Val Acc: 1.0
+num_test = 10000
+Epoch 0 Step 18750 val.txt
+                            | Test Loss: 0.001
+                            | Test Acc: 1.0
+num_test = 10000
+Epoch 0 Step 18750 val_dyck1_2.txt
+                            | Test Loss: 0.0006
+                            | Test Acc: 1.0
+num_test = 10000
+Epoch 0 Step 18750 val_dyck1_3.txt
+                            | Test Loss: 1.8724
+                            | Test Acc: 0.5813
+num_test = 10000
+Epoch 0 Step 18750 val_dyck1_4.txt
+                            | Test Loss: 3.3825
+                            | Test Acc: 0.5085
+num_test = 10000
+Epoch 0 Step 18750 val_dyck1_5.txt
+                            | Test Loss: 3.8602
+                            | Test Acc: 0.4896
+num_test = 10000
+Epoch 0 Step 28125 
+                        | Val Loss: 0.0014 
+                        | Val Acc: 1.0
+num_test = 10000
+Epoch 0 Step 28125 val.txt
+                            | Test Loss: 0.0014
+                            | Test Acc: 1.0
+num_test = 10000
+Epoch 0 Step 28125 val_dyck1_2.txt
+                            | Test Loss: 0.0138
+                            | Test Acc: 0.9998
+num_test = 10000
+Epoch 0 Step 28125 val_dyck1_3.txt
+                            | Test Loss: 0.0085
+                            | Test Acc: 0.9994
+num_test = 10000
+Epoch 0 Step 28125 val_dyck1_4.txt
+                            | Test Loss: 2.312
+                            | Test Acc: 0.4986
+num_test = 10000
+Epoch 0 Step 28125 val_dyck1_5.txt
+                            | Test Loss: 2.2891
+                            | Test Acc: 0.4991
+num_test = 10000
+Epoch 0 Step 37500 
+                    | Val Loss: 0.002 
+                    | Val Acc: 1.0
+num_test = 10000
+Epoch 0 Step 37500 val.txt
+                    | Test Loss: 0.002
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 0 Step 37500 val_dyck1_2.txt
+                    | Test Loss: 0.0017
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 0 Step 37500 val_dyck1_3.txt
+                    | Test Loss: 0.0011
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 0 Step 37500 val_dyck1_4.txt
+                    | Test Loss: 0.0013
+                    | Test Acc: 1.0
+num_test = 10000
+Epoch 0 Step 37500 val_dyck1_5.txt
+                    | Test Loss: 5.3416
+                    | Test Acc: 0.5385
+
+
+------------- Start Inference -------------
+max_seen_len for dyck1_1234 = 20
+ val acc, load from 0_37500_RNN.pt
+                | Test Loss: 0.002 
+                | Test Acc: 1.0
+            
+ val acc, load from 0_37500_RNN.pt
+                | Test Loss: 0.002 
+                | Test Acc: 1.0
+            
+ val_dyck1_2 acc, load from 0_37500_RNN.pt
+                | Test Loss: 0.0017 
+                | Test Acc: 1.0
+            
+ val_dyck1_3 acc, load from 0_37500_RNN.pt
+                | Test Loss: 0.0011 
+                | Test Acc: 1.0
+            
+ val_dyck1_4 acc, load from 0_37500_RNN.pt
+                | Test Loss: 0.0013 
+                | Test Acc: 1.0
+            
+ val_dyck1_5 acc, load from 0_37500_RNN.pt
+                | Test Loss: 5.3482 
+                | Test Acc: 0.5385
+            
+Finish!!! 0328_133834

@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Basic_Config:
-    seed = 929
+    seed = 89
     model = "RNN"
     date = "debug"
     hf_cache_dir = '/data/yingshac/hf_cache'
@@ -30,10 +30,11 @@ class Basic_Config:
     #warmup_steps = 0 #3000
     learning_rate = 0.01
     weight_decay = 0.01
-    num_epochs = 5
-    eval_every_steps = 100000 # useless for now
+    num_epochs = 1
+    eval_every_steps = 9375 # 300000 / 32
     load_from_dir = None #"0427_131257" # 
     init_from_ckpt = None
+    shuffle_training_data = False
 
 
 @dataclass
@@ -44,3 +45,4 @@ class Default_Config:
     model = "RNN"
     freeze_null_emb = False
     hf_cache_dir = None
+    shuffle_training_data = True
