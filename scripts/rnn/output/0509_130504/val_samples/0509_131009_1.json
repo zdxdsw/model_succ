@@ -1,0 +1,18 @@
+{
+  "test_data_file": "../../data//model_succ3_2_50/lm/val.txt",
+  "load_from": "0509_130504/1_80_RNN.pt",
+  "test_acc": 0.7778,
+  "test_loss": 0.4705,
+  "testing_output": {
+    "0": {
+      "input": "# R + N # N - R <sep> # N + <ns> # <ns> - N",
+      "gth": "# N + <ns> # <ns> - N <eos>",
+      "pred": "# A + <ns> # <ns> - A <eos>"
+    },
+    "1": {
+      "input": "# K + Z # Z - K # Z + p # p - Z <sep> # p + <ns> # <ns> - p",
+      "gth": "# p + <ns> # <ns> - p <eos>",
+      "pred": "# F + <ns> # <ns> - F <eos>"
+    }
+  }
+}

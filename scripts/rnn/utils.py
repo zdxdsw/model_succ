@@ -26,21 +26,21 @@ def sequences_collator(texts, w2i, max_seq_len):
 def get_acc(logits, labels, ignore_index):
     pred = logits.argmax(dim=-1)
 
-    last_correct, last_demo = 0, 0
+    correct, demo = 0, 0
 
     for _pred, _labels in zip(pred, labels):
-        last_pred = _pred[_labels != ignore_index][-1].squeeze()
-        last_label = _labels[_labels != ignore_index][-1].squeeze()
+        pred = _pred[_labels != ignore_index] #[-1].squeeze()
+        label = _labels[_labels != ignore_index] #[-1].squeeze()
 
-        last_correct += (last_pred == last_label).float().sum().item()
-        last_demo += last_label.numel()
+        correct += (pred == label).float().sum().item()
+        demo += label.numel()
 
-    return last_correct, last_demo 
+    return correct, demo 
 
 
 def inference(model_to_eval, dataloader, criterion, device, vocab):
     
-    last_correct, last_demo = 0, 0
+    correct, demo = 0, 0
     losses = []
     testing_output = {}
     k = 0
@@ -59,13 +59,13 @@ def inference(model_to_eval, dataloader, criterion, device, vocab):
             batch['label'].view(-1), # 1, bs*seq_len
         )
         losses.append(loss.detach().item())
-        _last_correct, _last_demo = get_acc(
+        _correct, _demo = get_acc(
             logits.detach().cpu(), 
             batch['label'].detach().cpu(), 
             ignore_index=-1,
         )
-        last_correct += _last_correct
-        last_demo += _last_demo
+        correct += _correct
+        demo += _demo
 
         for input_id, gth_id, pred_id in zip(batch['input_id'], batch['label'], logits.argmax(dim=-1)):
             input_seq = [vocab[i] for i in input_id if vocab[i]!='<pad>']
@@ -79,8 +79,8 @@ def inference(model_to_eval, dataloader, criterion, device, vocab):
             k+=1
 
     avg_loss = round(np.mean(losses), 4)
-    avg_last_acc = round(last_correct/last_demo, 4)
+    avg_acc = round(correct/demo, 4)
     print(f"num_test = {k}")
 
-    return avg_loss, avg_last_acc
+    return avg_loss, avg_acc
     

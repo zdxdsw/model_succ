@@ -1,0 +1,37 @@
+max_seen_len for model_succ3_3_50 = 33
+ val acc, load from 0_60_RNN.pt
+                | Test Loss: 0.7051 
+                | Test Acc: 0.7778
+             test acc, load from 0_60_RNN.pt
+                | Test Loss: 0.7683 
+                | Test Acc: 0.8155
+            
+ val acc, load from 1_120_RNN.pt
+                | Test Loss: 0.1106 
+                | Test Acc: 1.0
+             test acc, load from 1_120_RNN.pt
+                | Test Loss: 0.1619 
+                | Test Acc: 0.9839
+            
+ val acc, load from 2_180_RNN.pt
+                | Test Loss: 0.021 
+                | Test Acc: 1.0
+             test acc, load from 2_180_RNN.pt
+                | Test Loss: 0.0257 
+                | Test Acc: 1.0
+            
+ val acc, load from 3_240_RNN.pt
+                | Test Loss: 0.0111 
+                | Test Acc: 1.0
+             test acc, load from 3_240_RNN.pt
+                | Test Loss: 0.0116 
+                | Test Acc: 1.0
+            
+ val acc, load from 4_300_RNN.pt
+                | Test Loss: 0.0063 
+                | Test Acc: 1.0
+             test acc, load from 4_300_RNN.pt
+                | Test Loss: 0.0073 
+                | Test Acc: 1.0
+            
+Finish testing 0509_125103!

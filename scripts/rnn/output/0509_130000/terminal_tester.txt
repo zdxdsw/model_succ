@@ -1,0 +1,37 @@
+max_seen_len for model_succ3_3_50 = 33
+ val acc, load from 0_60_LSTM.pt
+                | Test Loss: 2.1801 
+                | Test Acc: 0.2222
+             test acc, load from 0_60_LSTM.pt
+                | Test Loss: 2.1724 
+                | Test Acc: 0.2222
+            
+ val acc, load from 1_120_LSTM.pt
+                | Test Loss: 1.4024 
+                | Test Acc: 0.7778
+             test acc, load from 1_120_LSTM.pt
+                | Test Loss: 1.4017 
+                | Test Acc: 0.7778
+            
+ val acc, load from 2_180_LSTM.pt
+                | Test Loss: 1.0214 
+                | Test Acc: 0.7778
+             test acc, load from 2_180_LSTM.pt
+                | Test Loss: 1.0199 
+                | Test Acc: 0.7778
+            
+ val acc, load from 3_240_LSTM.pt
+                | Test Loss: 0.9551 
+                | Test Acc: 0.7778
+             test acc, load from 3_240_LSTM.pt
+                | Test Loss: 0.9497 
+                | Test Acc: 0.7778
+            
+ val acc, load from 4_300_LSTM.pt
+                | Test Loss: 0.9364 
+                | Test Acc: 0.7778
+             test acc, load from 4_300_LSTM.pt
+                | Test Loss: 0.9208 
+                | Test Acc: 0.7778
+            
+Finish testing 0509_130000!

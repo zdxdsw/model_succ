@@ -124,12 +124,12 @@ tasks = [args.task] + config.aux_tasks
 train_data = concatenate_datasets(
                     [load_dataset(
                             "text", 
-                            data_files={"train": f"{config.train_data_path}/{task}/{config.gendate}/train.txt"}
+                            data_files={"train": f"{config.train_data_path}/{task}/{config.task_version}/train.txt"}
                             )['train'] for task in tasks]
                 )
 val_data = load_dataset(
                     "text", 
-                    data_files={"validation": f"{config.eval_data_path}/{args.task}/{config.gendate}/val.txt"}
+                    data_files={"validation": f"{config.eval_data_path}/{args.task}/{config.task_version}/val.txt"}
                     )['validation']
 
 args.max_seen_len = max([len([x for x in json.loads(l['text'])[0] if x != "<pad>"]) for l in val_data])
@@ -149,7 +149,7 @@ Print(f"num val = {len(val_data)}")
 
 test_dataloaders = {}
 for ood_test_file in config.test_files:
-    test_data = load_dataset("text",  data_files={ood_test_file: f"{config.eval_data_path}/{args.task}/{config.gendate}/{ood_test_file}.txt"})
+    test_data = load_dataset("text",  data_files={ood_test_file: f"{config.eval_data_path}/{args.task}/{config.task_version}/{ood_test_file}.txt"})
     test_dataloaders[ood_test_file] = DataLoader(test_data[ood_test_file], shuffle=False, batch_size=config.per_device_eval_batch_size, collate_fn=collator)
 
 

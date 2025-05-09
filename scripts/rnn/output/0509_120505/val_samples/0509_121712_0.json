@@ -1,0 +1,23 @@
+{
+  "test_data_file": "../../data//model_succ2_3_20/lm/val.txt",
+  "load_from": "0509_120505/0_30_LSTM.pt",
+  "test_acc": 0.4444,
+  "test_loss": 1.6584,
+  "testing_output": {
+    "0": {
+      "input": "# c + h # h - c <sep> # h + <ns> # <ns> - h",
+      "gth": "# h + <ns> # <ns> - h <eos>",
+      "pred": "# <eos> # <ns> <ns> <ns> <ns> <eos> <eos>"
+    },
+    "1": {
+      "input": "# v + z # z - v # z + h # h - z <sep> # h + <ns> # <ns> - h",
+      "gth": "# h + <ns> # <ns> - h <eos>",
+      "pred": "# <eos> # <ns> <ns> <ns> <ns> <eos> <eos>"
+    },
+    "2": {
+      "input": "# b + a # a - b # a + v # v - a # v + x # x - v <sep> # x + <ns> # <ns> - x",
+      "gth": "# x + <ns> # <ns> - x <eos>",
+      "pred": "# <eos> # <ns> <ns> <ns> <ns> <eos> <eos>"
+    }
+  }
+}

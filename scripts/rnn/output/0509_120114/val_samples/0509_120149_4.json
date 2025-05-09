@@ -1,0 +1,58 @@
+{
+  "test_data_file": "../../data//model_succ2_10_20/lm/val.txt",
+  "load_from": "0509_120114/4_500_LSTM.pt",
+  "test_acc": 1.0,
+  "test_loss": 0.0022,
+  "testing_output": {
+    "0": {
+      "input": "# p + o # o - p <sep> # o + <ns> # <ns> - o",
+      "gth": "# o + <ns> # <ns> - o <eos>",
+      "pred": "# o + <ns> # <ns> - o <eos>"
+    },
+    "1": {
+      "input": "# l + k # k - l # k + u # u - k <sep> # u + <ns> # <ns> - u",
+      "gth": "# u + <ns> # <ns> - u <eos>",
+      "pred": "# u + <ns> # <ns> - u <eos>"
+    },
+    "2": {
+      "input": "# x + w # w - x # w + q # q - w # q + s # s - q <sep> # s + <ns> # <ns> - s",
+      "gth": "# s + <ns> # <ns> - s <eos>",
+      "pred": "# s + <ns> # <ns> - s <eos>"
+    },
+    "3": {
+      "input": "# k + h # h - k # h + a # a - h # a + q # q - a # q + r # r - q <sep> # r + <ns> # <ns> - r",
+      "gth": "# r + <ns> # <ns> - r <eos>",
+      "pred": "# r + <ns> # <ns> - r <eos>"
+    },
+    "4": {
+      "input": "# d + u # u - d # u + t # t - u # t + r # r - t # r + l # l - r # l + b # b - l <sep> # b + <ns> # <ns> - b",
+      "gth": "# b + <ns> # <ns> - b <eos>",
+      "pred": "# b + <ns> # <ns> - b <eos>"
+    },
+    "5": {
+      "input": "# q + z # z - q # z + m # m - z # m + c # c - m # c + g # g - c # g + y # y - g # y + k # k - y <sep> # k + <ns> # <ns> - k",
+      "gth": "# k + <ns> # <ns> - k <eos>",
+      "pred": "# k + <ns> # <ns> - k <eos>"
+    },
+    "6": {
+      "input": "# y + n # n - y # n + a # a - n # a + d # d - a # d + b # b - d # b + t # t - b # t + h # h - t # h + m # m - h <sep> # m + <ns> # <ns> - m",
+      "gth": "# m + <ns> # <ns> - m <eos>",
+      "pred": "# m + <ns> # <ns> - m <eos>"
+    },
+    "7": {
+      "input": "# x + l # l - x # l + e # e - l # e + n # n - e # n + d # d - n # d + m # m - d # m + z # z - m # z + u # u - z # u + q # q - u <sep> # q + <ns> # <ns> - q",
+      "gth": "# q + <ns> # <ns> - q <eos>",
+      "pred": "# q + <ns> # <ns> - q <eos>"
+    },
+    "8": {
+      "input": "# x + k # k - x # k + s # s - k # s + q # q - s # q + o # o - q # o + f # f - o # f + d # d - f # d + i # i - d # i + a # a - i # a + y # y - a <sep> # y + <ns> # <ns> - y",
+      "gth": "# y + <ns> # <ns> - y <eos>",
+      "pred": "# y + <ns> # <ns> - y <eos>"
+    },
+    "9": {
+      "input": "# q + i # i - q # i + f # f - i # f + n # n - f # n + h # h - n # h + l # l - h # l + j # j - l # j + p # p - j # p + e # e - p # e + m # m - e # m + b # b - m <sep> # b + <ns> # <ns> - b",
+      "gth": "# b + <ns> # <ns> - b <eos>",
+      "pred": "# b + <ns> # <ns> - b <eos>"
+    }
+  }
+}

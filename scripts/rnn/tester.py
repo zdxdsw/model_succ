@@ -49,16 +49,16 @@ avail_ckpts = sorted(os.listdir(ckpt_dir), key=lambda x: int(x.split("_")[1]))
 if args.load_from_epochs != "all":
     avail_ckpts = [ckpt for ckpt in avail_ckpts if int(ckpt.split("_")[0]) in [int(e) for e in args.load_from_epochs.split()]]
 
-val_file = open(f"{config.eval_data_path}/{config.task}/{config.gendate}/val.txt", "r").readlines()
+val_file = open(f"{config.eval_data_path}/{config.task}/{config.task_version}/val.txt", "r").readlines()
 args.max_seen_len = max([len([x for x in json.loads(l)[0] if x != "<pad>"]) for l in val_file])
 messages = []
-msg = f"max_seen_len for {config.task} = {args.max_seen_len}"
+msg = f"max_seen_len for {config.task} = {args.max_seen_len}\n"
 messages.append(msg)
 print(msg)
 
 
 """ -------------------- Prepare Reusable Variables -------------------- """
-data_path = f"{config.eval_data_path}/{config.task}/{config.gendate}"
+data_path = f"{config.eval_data_path}/{config.task}/{config.task_version}"
 criterion = torch.nn.CrossEntropyLoss(ignore_index=-1)
 
 collator = partial(sequences_collator, 

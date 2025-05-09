@@ -1,0 +1,14 @@
+------------- Preparing LSTM model -------------
+Total parameters: 40832
+Trainable parameters: 40832
+Optimizer group 0 | 6 tensors
+------------- Preparing data -------------
+max_seen_len for model_succ3_2_50 = 25
+config.shuffle_training_data =  True
+num train = 1280
+num val = 2
+------------ Start job 0509_132632 ------------
+num_test = 2
+Epoch 0 Step 0 
+                        | Val Loss: 4.0757 
+                        | Val Acc: 0.0

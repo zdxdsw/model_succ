@@ -1,0 +1,104 @@
+------------- Preparing LSTM model -------------
+Total parameters: 4064
+Trainable parameters: 4064
+Optimizer group 0 | 6 tensors
+------------- Preparing data -------------
+max_seen_len for model_succ3_3_50 = 33
+config.shuffle_training_data =  True
+num train = 1920
+num val = 3
+------------ Start job 0509_130000 ------------
+num_test = 3
+Epoch 0 Step 0 
+                        | Val Loss: 4.0745 
+                        | Val Acc: 0.0
+num_test = 2444
+Epoch 0 Step 0 test.txt
+                            | Test Loss: 4.075
+                            | Test Acc: 0.0053
+num_test = 3
+Epoch 0 Step 60 
+                    | Val Loss: 2.1801 
+                    | Val Acc: 0.2222
+num_test = 2444
+Epoch 0 Step 60 test.txt
+                    | Test Loss: 2.1724
+                    | Test Acc: 0.2222
+num_test = 3
+Epoch 1 Step 120 
+                    | Val Loss: 1.4024 
+                    | Val Acc: 0.7778
+num_test = 2444
+Epoch 1 Step 120 test.txt
+                    | Test Loss: 1.4017
+                    | Test Acc: 0.7778
+num_test = 3
+Epoch 2 Step 180 
+                    | Val Loss: 1.0213 
+                    | Val Acc: 0.7778
+num_test = 2444
+Epoch 2 Step 180 test.txt
+                    | Test Loss: 1.0199
+                    | Test Acc: 0.7778
+num_test = 3
+Epoch 3 Step 240 
+                    | Val Loss: 0.9551 
+                    | Val Acc: 0.7778
+num_test = 2444
+Epoch 3 Step 240 test.txt
+                    | Test Loss: 0.9497
+                    | Test Acc: 0.7778
+num_test = 3
+Epoch 4 Step 300 
+                    | Val Loss: 0.9364 
+                    | Val Acc: 0.7778
+num_test = 2444
+Epoch 4 Step 300 test.txt
+                    | Test Loss: 0.9211
+                    | Test Acc: 0.7778
+
+
+------------- Start Inference -------------
+max_seen_len for model_succ3_3_50 = 33
+
+ val acc, load from 0_60_LSTM.pt
+                | Test Loss: 2.1801 
+                | Test Acc: 0.2222
+            
+ test acc, load from 0_60_LSTM.pt
+                | Test Loss: 2.1724 
+                | Test Acc: 0.2222
+            
+ val acc, load from 1_120_LSTM.pt
+                | Test Loss: 1.4024 
+                | Test Acc: 0.7778
+            
+ test acc, load from 1_120_LSTM.pt
+                | Test Loss: 1.4017 
+                | Test Acc: 0.7778
+            
+ val acc, load from 2_180_LSTM.pt
+                | Test Loss: 1.0214 
+                | Test Acc: 0.7778
+            
+ test acc, load from 2_180_LSTM.pt
+                | Test Loss: 1.0199 
+                | Test Acc: 0.7778
+            
+ val acc, load from 3_240_LSTM.pt
+                | Test Loss: 0.9551 
+                | Test Acc: 0.7778
+            
+ test acc, load from 3_240_LSTM.pt
+                | Test Loss: 0.9497 
+                | Test Acc: 0.7778
+            
+ val acc, load from 4_300_LSTM.pt
+                | Test Loss: 0.9364 
+                | Test Acc: 0.7778
+            
+ test acc, load from 4_300_LSTM.pt
+                | Test Loss: 0.9208 
+                | Test Acc: 0.7778
+            
+Finish!!! 0509_130000

@@ -11,7 +11,7 @@ if os.path.exists('/data/yingshac/'):
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--task', type=str, default="")
-parser.add_argument('--gendate', type=str, default="")
+parser.add_argument('--task_version', type=str, default="")
 parser.add_argument('--sleep', type=int)
 parser.add_argument('--port', type=str, default="")
 parser.add_argument('--cuda', type=str, default="")
@@ -23,7 +23,7 @@ if args.cuda: args.cuda = f"CUDA_VISIBLE_DEVICES=\"{args.cuda}\""
 if len(args.task): config = eval(f"{args.task}_Config")()
 else: config = Basic_Config()
 default_config = Default_Config()
-config.gendate = args.gendate
+config.task_version = args.task_version
 
 SEEDS = config.seed
 if isinstance(SEEDS, int): SEEDS = [SEEDS]

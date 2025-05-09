@@ -1,0 +1,344 @@
+------------- Preparing RNN model -------------
+Total parameters: 11904
+Trainable parameters: 11904
+Optimizer group 0 | 6 tensors
+------------- Preparing data -------------
+max_seen_len for model_succ_10_20 = 89
+config.shuffle_training_data =  True
+num train = 9600
+num val = 30
+------------ Start job 0507_211143 ------------
+num_test = 30
+Epoch 0 Step 0 
+                        | Val Loss: 3.3303 
+                        | Val Acc: 0.0385
+num_test = 10
+Epoch 0 Step 0 test.txt
+                            | Test Loss: 3.3326
+                            | Test Acc: 0.0
+num_test = 30
+Epoch 0 Step 300 
+                    | Val Loss: 0.0037 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 0 Step 300 test.txt
+                    | Test Loss: 4.4191
+                    | Test Acc: 0.3333
+num_test = 30
+Epoch 1 Step 600 
+                    | Val Loss: 0.0013 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 1 Step 600 test.txt
+                    | Test Loss: 4.6705
+                    | Test Acc: 0.3556
+num_test = 30
+Epoch 2 Step 900 
+                    | Val Loss: 0.0007 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 2 Step 900 test.txt
+                    | Test Loss: 4.758
+                    | Test Acc: 0.3667
+num_test = 30
+Epoch 3 Step 1200 
+                    | Val Loss: 0.0005 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 3 Step 1200 test.txt
+                    | Test Loss: 4.8006
+                    | Test Acc: 0.3667
+num_test = 30
+Epoch 4 Step 1500 
+                    | Val Loss: 0.0004 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 4 Step 1500 test.txt
+                    | Test Loss: 4.7875
+                    | Test Acc: 0.3667
+num_test = 30
+Epoch 5 Step 1800 
+                    | Val Loss: 0.0003 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 5 Step 1800 test.txt
+                    | Test Loss: 4.7491
+                    | Test Acc: 0.3778
+num_test = 30
+Epoch 6 Step 2100 
+                    | Val Loss: 0.0002 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 6 Step 2100 test.txt
+                    | Test Loss: 4.7034
+                    | Test Acc: 0.3667
+num_test = 30
+Epoch 7 Step 2400 
+                    | Val Loss: 0.0002 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 7 Step 2400 test.txt
+                    | Test Loss: 4.6804
+                    | Test Acc: 0.3889
+num_test = 30
+Epoch 8 Step 2700 
+                    | Val Loss: 0.0002 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 8 Step 2700 test.txt
+                    | Test Loss: 4.7002
+                    | Test Acc: 0.3778
+num_test = 30
+Epoch 9 Step 3000 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 9 Step 3000 test.txt
+                    | Test Loss: 5.1831
+                    | Test Acc: 0.4556
+num_test = 30
+Epoch 10 Step 3300 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 10 Step 3300 test.txt
+                    | Test Loss: 5.0251
+                    | Test Acc: 0.5111
+num_test = 30
+Epoch 11 Step 3600 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 11 Step 3600 test.txt
+                    | Test Loss: 5.1136
+                    | Test Acc: 0.5
+num_test = 30
+Epoch 12 Step 3900 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 12 Step 3900 test.txt
+                    | Test Loss: 4.9724
+                    | Test Acc: 0.5111
+num_test = 30
+Epoch 13 Step 4200 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 13 Step 4200 test.txt
+                    | Test Loss: 5.0824
+                    | Test Acc: 0.5667
+num_test = 30
+Epoch 14 Step 4500 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 14 Step 4500 test.txt
+                    | Test Loss: 5.1275
+                    | Test Acc: 0.5556
+num_test = 30
+Epoch 15 Step 4800 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 15 Step 4800 test.txt
+                    | Test Loss: 5.2282
+                    | Test Acc: 0.5333
+num_test = 30
+Epoch 16 Step 5100 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 16 Step 5100 test.txt
+                    | Test Loss: 5.2209
+                    | Test Acc: 0.5333
+num_test = 30
+Epoch 17 Step 5400 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 17 Step 5400 test.txt
+                    | Test Loss: 5.2187
+                    | Test Acc: 0.5333
+num_test = 30
+Epoch 18 Step 5700 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 18 Step 5700 test.txt
+                    | Test Loss: 5.2083
+                    | Test Acc: 0.5333
+num_test = 30
+Epoch 19 Step 6000 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 19 Step 6000 test.txt
+                    | Test Loss: 5.1782
+                    | Test Acc: 0.5222
+
+
+------------- Start Inference -------------
+max_seen_len for model_succ_10_20 = 89
+
+ val acc, load from 0_300_RNN.pt
+                | Test Loss: 0.0037 
+                | Test Acc: 1.0
+            
+ test acc, load from 0_300_RNN.pt
+                | Test Loss: 4.4192 
+                | Test Acc: 0.3333
+            
+ val acc, load from 1_600_RNN.pt
+                | Test Loss: 0.0013 
+                | Test Acc: 1.0
+            
+ test acc, load from 1_600_RNN.pt
+                | Test Loss: 4.6704 
+                | Test Acc: 0.3556
+            
+ val acc, load from 2_900_RNN.pt
+                | Test Loss: 0.0007 
+                | Test Acc: 1.0
+            
+ test acc, load from 2_900_RNN.pt
+                | Test Loss: 4.7579 
+                | Test Acc: 0.3667
+            
+ val acc, load from 3_1200_RNN.pt
+                | Test Loss: 0.0005 
+                | Test Acc: 1.0
+            
+ test acc, load from 3_1200_RNN.pt
+                | Test Loss: 4.8008 
+                | Test Acc: 0.3667
+            
+ val acc, load from 4_1500_RNN.pt
+                | Test Loss: 0.0004 
+                | Test Acc: 1.0
+            
+ test acc, load from 4_1500_RNN.pt
+                | Test Loss: 4.7876 
+                | Test Acc: 0.3667
+            
+ val acc, load from 5_1800_RNN.pt
+                | Test Loss: 0.0003 
+                | Test Acc: 1.0
+            
+ test acc, load from 5_1800_RNN.pt
+                | Test Loss: 4.7493 
+                | Test Acc: 0.3778
+            
+ val acc, load from 6_2100_RNN.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+            
+ test acc, load from 6_2100_RNN.pt
+                | Test Loss: 4.704 
+                | Test Acc: 0.3778
+            
+ val acc, load from 7_2400_RNN.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+            
+ test acc, load from 7_2400_RNN.pt
+                | Test Loss: 4.68 
+                | Test Acc: 0.3889
+            
+ val acc, load from 8_2700_RNN.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+            
+ test acc, load from 8_2700_RNN.pt
+                | Test Loss: 4.6957 
+                | Test Acc: 0.3778
+            
+ val acc, load from 9_3000_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 9_3000_RNN.pt
+                | Test Loss: 5.1896 
+                | Test Acc: 0.4556
+            
+ val acc, load from 10_3300_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 10_3300_RNN.pt
+                | Test Loss: 5.026 
+                | Test Acc: 0.5111
+            
+ val acc, load from 11_3600_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 11_3600_RNN.pt
+                | Test Loss: 5.1118 
+                | Test Acc: 0.5
+            
+ val acc, load from 12_3900_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 12_3900_RNN.pt
+                | Test Loss: 4.9721 
+                | Test Acc: 0.5111
+            
+ val acc, load from 13_4200_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 13_4200_RNN.pt
+                | Test Loss: 5.0827 
+                | Test Acc: 0.5667
+            
+ val acc, load from 14_4500_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 14_4500_RNN.pt
+                | Test Loss: 5.1274 
+                | Test Acc: 0.5556
+            
+ val acc, load from 15_4800_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ test acc, load from 15_4800_RNN.pt
+                | Test Loss: 5.2284 
+                | Test Acc: 0.5333
+            
+ val acc, load from 16_5100_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ test acc, load from 16_5100_RNN.pt
+                | Test Loss: 5.2202 
+                | Test Acc: 0.5333
+            
+ val acc, load from 17_5400_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ test acc, load from 17_5400_RNN.pt
+                | Test Loss: 5.2192 
+                | Test Acc: 0.5333
+            
+ val acc, load from 18_5700_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ test acc, load from 18_5700_RNN.pt
+                | Test Loss: 5.2083 
+                | Test Acc: 0.5333
+            
+ val acc, load from 19_6000_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ test acc, load from 19_6000_RNN.pt
+                | Test Loss: 5.178 
+                | Test Acc: 0.5222
+            
+Finish!!! 0507_211143

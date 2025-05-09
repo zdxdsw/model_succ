@@ -1,0 +1,104 @@
+------------- Preparing RNN model -------------
+Total parameters: 15872
+Trainable parameters: 15872
+Optimizer group 0 | 6 tensors
+------------- Preparing data -------------
+max_seen_len for model_succ3_3_50 = 33
+config.shuffle_training_data =  True
+num train = 1920
+num val = 3
+------------ Start job 0509_125103 ------------
+num_test = 3
+Epoch 0 Step 0 
+                        | Val Loss: 4.0738 
+                        | Val Acc: 0.0
+num_test = 2444
+Epoch 0 Step 0 test.txt
+                            | Test Loss: 4.0747
+                            | Test Acc: 0.0077
+num_test = 3
+Epoch 0 Step 60 
+                    | Val Loss: 0.7051 
+                    | Val Acc: 0.7778
+num_test = 2444
+Epoch 0 Step 60 test.txt
+                    | Test Loss: 0.7694
+                    | Test Acc: 0.8155
+num_test = 3
+Epoch 1 Step 120 
+                    | Val Loss: 0.1106 
+                    | Val Acc: 1.0
+num_test = 2444
+Epoch 1 Step 120 test.txt
+                    | Test Loss: 0.1624
+                    | Test Acc: 0.9839
+num_test = 3
+Epoch 2 Step 180 
+                    | Val Loss: 0.021 
+                    | Val Acc: 1.0
+num_test = 2444
+Epoch 2 Step 180 test.txt
+                    | Test Loss: 0.0258
+                    | Test Acc: 1.0
+num_test = 3
+Epoch 3 Step 240 
+                    | Val Loss: 0.0111 
+                    | Val Acc: 1.0
+num_test = 2444
+Epoch 3 Step 240 test.txt
+                    | Test Loss: 0.0117
+                    | Test Acc: 1.0
+num_test = 3
+Epoch 4 Step 300 
+                    | Val Loss: 0.0063 
+                    | Val Acc: 1.0
+num_test = 2444
+Epoch 4 Step 300 test.txt
+                    | Test Loss: 0.0073
+                    | Test Acc: 1.0
+
+
+------------- Start Inference -------------
+max_seen_len for model_succ3_3_50 = 33
+
+ val acc, load from 0_60_RNN.pt
+                | Test Loss: 0.7051 
+                | Test Acc: 0.7778
+            
+ test acc, load from 0_60_RNN.pt
+                | Test Loss: 0.7683 
+                | Test Acc: 0.8155
+            
+ val acc, load from 1_120_RNN.pt
+                | Test Loss: 0.1106 
+                | Test Acc: 1.0
+            
+ test acc, load from 1_120_RNN.pt
+                | Test Loss: 0.1619 
+                | Test Acc: 0.9839
+            
+ val acc, load from 2_180_RNN.pt
+                | Test Loss: 0.021 
+                | Test Acc: 1.0
+            
+ test acc, load from 2_180_RNN.pt
+                | Test Loss: 0.0257 
+                | Test Acc: 1.0
+            
+ val acc, load from 3_240_RNN.pt
+                | Test Loss: 0.0111 
+                | Test Acc: 1.0
+            
+ test acc, load from 3_240_RNN.pt
+                | Test Loss: 0.0116 
+                | Test Acc: 1.0
+            
+ val acc, load from 4_300_RNN.pt
+                | Test Loss: 0.0063 
+                | Test Acc: 1.0
+            
+ test acc, load from 4_300_RNN.pt
+                | Test Loss: 0.0073 
+                | Test Acc: 1.0
+            
+Finish!!! 0509_125103

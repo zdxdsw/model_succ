@@ -1,0 +1,344 @@
+------------- Preparing LSTM model -------------
+Total parameters: 36864
+Trainable parameters: 36864
+Optimizer group 0 | 6 tensors
+------------- Preparing data -------------
+max_seen_len for model_succ_10_20 = 89
+config.shuffle_training_data =  True
+num train = 9600
+num val = 30
+------------ Start job 0507_213627 ------------
+num_test = 30
+Epoch 0 Step 0 
+                        | Val Loss: 3.3322 
+                        | Val Acc: 0.0351
+num_test = 10
+Epoch 0 Step 0 test.txt
+                            | Test Loss: 3.3327
+                            | Test Acc: 0.0451
+num_test = 30
+Epoch 0 Step 300 
+                    | Val Loss: 0.0149 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 0 Step 300 test.txt
+                    | Test Loss: 2.1422
+                    | Test Acc: 0.6323
+num_test = 30
+Epoch 1 Step 600 
+                    | Val Loss: 0.003 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 1 Step 600 test.txt
+                    | Test Loss: 2.297
+                    | Test Acc: 0.6451
+num_test = 30
+Epoch 2 Step 900 
+                    | Val Loss: 0.0014 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 2 Step 900 test.txt
+                    | Test Loss: 2.3735
+                    | Test Acc: 0.6511
+num_test = 30
+Epoch 3 Step 1200 
+                    | Val Loss: 0.0009 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 3 Step 1200 test.txt
+                    | Test Loss: 2.4371
+                    | Test Acc: 0.6617
+num_test = 30
+Epoch 4 Step 1500 
+                    | Val Loss: 0.0006 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 4 Step 1500 test.txt
+                    | Test Loss: 2.4704
+                    | Test Acc: 0.6624
+num_test = 30
+Epoch 5 Step 1800 
+                    | Val Loss: 0.0005 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 5 Step 1800 test.txt
+                    | Test Loss: 2.495
+                    | Test Acc: 0.6639
+num_test = 30
+Epoch 6 Step 2100 
+                    | Val Loss: 0.0004 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 6 Step 2100 test.txt
+                    | Test Loss: 2.5257
+                    | Test Acc: 0.6707
+num_test = 30
+Epoch 7 Step 2400 
+                    | Val Loss: 0.0003 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 7 Step 2400 test.txt
+                    | Test Loss: 2.5638
+                    | Test Acc: 0.6654
+num_test = 30
+Epoch 8 Step 2700 
+                    | Val Loss: 0.0002 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 8 Step 2700 test.txt
+                    | Test Loss: 2.6043
+                    | Test Acc: 0.6647
+num_test = 30
+Epoch 9 Step 3000 
+                    | Val Loss: 0.0002 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 9 Step 3000 test.txt
+                    | Test Loss: 2.6245
+                    | Test Acc: 0.6692
+num_test = 30
+Epoch 10 Step 3300 
+                    | Val Loss: 0.0002 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 10 Step 3300 test.txt
+                    | Test Loss: 2.6403
+                    | Test Acc: 0.6789
+num_test = 30
+Epoch 11 Step 3600 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 11 Step 3600 test.txt
+                    | Test Loss: 2.6713
+                    | Test Acc: 0.6789
+num_test = 30
+Epoch 12 Step 3900 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 12 Step 3900 test.txt
+                    | Test Loss: 2.7059
+                    | Test Acc: 0.6744
+num_test = 30
+Epoch 13 Step 4200 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 13 Step 4200 test.txt
+                    | Test Loss: 2.722
+                    | Test Acc: 0.682
+num_test = 30
+Epoch 14 Step 4500 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 14 Step 4500 test.txt
+                    | Test Loss: 2.5988
+                    | Test Acc: 0.694
+num_test = 30
+Epoch 15 Step 4800 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 15 Step 4800 test.txt
+                    | Test Loss: 2.5431
+                    | Test Acc: 0.7173
+num_test = 30
+Epoch 16 Step 5100 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 16 Step 5100 test.txt
+                    | Test Loss: 2.5524
+                    | Test Acc: 0.7188
+num_test = 30
+Epoch 17 Step 5400 
+                    | Val Loss: 0.0001 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 17 Step 5400 test.txt
+                    | Test Loss: 2.5606
+                    | Test Acc: 0.7188
+num_test = 30
+Epoch 18 Step 5700 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 18 Step 5700 test.txt
+                    | Test Loss: 2.5682
+                    | Test Acc: 0.7195
+num_test = 30
+Epoch 19 Step 6000 
+                    | Val Loss: 0.0 
+                    | Val Acc: 1.0
+num_test = 10
+Epoch 19 Step 6000 test.txt
+                    | Test Loss: 2.5634
+                    | Test Acc: 0.7195
+
+
+------------- Start Inference -------------
+max_seen_len for model_succ_10_20 = 89
+
+ val acc, load from 0_300_LSTM.pt
+                | Test Loss: 0.0149 
+                | Test Acc: 1.0
+            
+ test acc, load from 0_300_LSTM.pt
+                | Test Loss: 2.1422 
+                | Test Acc: 0.6331
+            
+ val acc, load from 1_600_LSTM.pt
+                | Test Loss: 0.003 
+                | Test Acc: 1.0
+            
+ test acc, load from 1_600_LSTM.pt
+                | Test Loss: 2.2969 
+                | Test Acc: 0.6451
+            
+ val acc, load from 2_900_LSTM.pt
+                | Test Loss: 0.0014 
+                | Test Acc: 1.0
+            
+ test acc, load from 2_900_LSTM.pt
+                | Test Loss: 2.3735 
+                | Test Acc: 0.6511
+            
+ val acc, load from 3_1200_LSTM.pt
+                | Test Loss: 0.0009 
+                | Test Acc: 1.0
+            
+ test acc, load from 3_1200_LSTM.pt
+                | Test Loss: 2.437 
+                | Test Acc: 0.6617
+            
+ val acc, load from 4_1500_LSTM.pt
+                | Test Loss: 0.0006 
+                | Test Acc: 1.0
+            
+ test acc, load from 4_1500_LSTM.pt
+                | Test Loss: 2.4706 
+                | Test Acc: 0.6624
+            
+ val acc, load from 5_1800_LSTM.pt
+                | Test Loss: 0.0005 
+                | Test Acc: 1.0
+            
+ test acc, load from 5_1800_LSTM.pt
+                | Test Loss: 2.4951 
+                | Test Acc: 0.6639
+            
+ val acc, load from 6_2100_LSTM.pt
+                | Test Loss: 0.0004 
+                | Test Acc: 1.0
+            
+ test acc, load from 6_2100_LSTM.pt
+                | Test Loss: 2.5254 
+                | Test Acc: 0.6707
+            
+ val acc, load from 7_2400_LSTM.pt
+                | Test Loss: 0.0003 
+                | Test Acc: 1.0
+            
+ test acc, load from 7_2400_LSTM.pt
+                | Test Loss: 2.5636 
+                | Test Acc: 0.6654
+            
+ val acc, load from 8_2700_LSTM.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+            
+ test acc, load from 8_2700_LSTM.pt
+                | Test Loss: 2.6044 
+                | Test Acc: 0.6647
+            
+ val acc, load from 9_3000_LSTM.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+            
+ test acc, load from 9_3000_LSTM.pt
+                | Test Loss: 2.6246 
+                | Test Acc: 0.6692
+            
+ val acc, load from 10_3300_LSTM.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+            
+ test acc, load from 10_3300_LSTM.pt
+                | Test Loss: 2.6398 
+                | Test Acc: 0.6789
+            
+ val acc, load from 11_3600_LSTM.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 11_3600_LSTM.pt
+                | Test Loss: 2.671 
+                | Test Acc: 0.6789
+            
+ val acc, load from 12_3900_LSTM.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 12_3900_LSTM.pt
+                | Test Loss: 2.7059 
+                | Test Acc: 0.6744
+            
+ val acc, load from 13_4200_LSTM.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 13_4200_LSTM.pt
+                | Test Loss: 2.7221 
+                | Test Acc: 0.682
+            
+ val acc, load from 14_4500_LSTM.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 14_4500_LSTM.pt
+                | Test Loss: 2.5984 
+                | Test Acc: 0.694
+            
+ val acc, load from 15_4800_LSTM.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 15_4800_LSTM.pt
+                | Test Loss: 2.5433 
+                | Test Acc: 0.7173
+            
+ val acc, load from 16_5100_LSTM.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 16_5100_LSTM.pt
+                | Test Loss: 2.5526 
+                | Test Acc: 0.7188
+            
+ val acc, load from 17_5400_LSTM.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+            
+ test acc, load from 17_5400_LSTM.pt
+                | Test Loss: 2.5604 
+                | Test Acc: 0.7188
+            
+ val acc, load from 18_5700_LSTM.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ test acc, load from 18_5700_LSTM.pt
+                | Test Loss: 2.5684 
+                | Test Acc: 0.7195
+            
+ val acc, load from 19_6000_LSTM.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+            
+ test acc, load from 19_6000_LSTM.pt
+                | Test Loss: 2.5634 
+                | Test Acc: 0.7195
+            
+Finish!!! 0507_213627

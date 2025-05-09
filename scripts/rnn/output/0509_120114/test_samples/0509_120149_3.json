@@ -1,0 +1,58 @@
+{
+  "test_data_file": "../../data//model_succ2_10_20/lm/test.txt",
+  "load_from": "0509_120114/3_400_LSTM.pt",
+  "test_acc": 1.0,
+  "test_loss": 0.0027,
+  "testing_output": {
+    "0": {
+      "input": "# c + a # a - c # a + w # w - a # w + m # m - w # m + d # d - m # d + v # v - d # v + j # j - v # j + z # z - j # z + o # o - z # o + x # x - o # x + f # f - x # f + u # u - f <sep> # u + <ns> # <ns> - u",
+      "gth": "# u + <ns> # <ns> - u <eos>",
+      "pred": "# u + <ns> # <ns> - u <eos>"
+    },
+    "1": {
+      "input": "# e + w # w - e # w + o # o - w # o + f # f - o # f + c # c - f # c + h # h - c # h + s # s - h # s + n # n - s # n + k # k - n # k + p # p - k # p + v # v - p # v + b # b - v # b + a # a - b <sep> # a + <ns> # <ns> - a",
+      "gth": "# a + <ns> # <ns> - a <eos>",
+      "pred": "# a + <ns> # <ns> - a <eos>"
+    },
+    "2": {
+      "input": "# l + d # d - l # d + m # m - d # m + e # e - m # e + b # b - e # b + v # v - b # v + g # g - v # g + h # h - g # h + p # p - h # p + z # z - p # z + o # o - z # o + j # j - o # j + s # s - j # s + c # c - s <sep> # c + <ns> # <ns> - c",
+      "gth": "# c + <ns> # <ns> - c <eos>",
+      "pred": "# c + <ns> # <ns> - c <eos>"
+    },
+    "3": {
+      "input": "# g + x # x - g # x + r # r - x # r + y # y - r # y + h # h - y # h + e # e - h # e + o # o - e # o + l # l - o # l + k # k - l # k + u # u - k # u + w # w - u # w + a # a - w # a + q # q - a # q + s # s - q # s + z # z - s <sep> # z + <ns> # <ns> - z",
+      "gth": "# z + <ns> # <ns> - z <eos>",
+      "pred": "# z + <ns> # <ns> - z <eos>"
+    },
+    "4": {
+      "input": "# h + l # l - h # l + z # z - l # z + b # b - z # b + n # n - b # n + j # j - n # j + i # i - j # i + u # u - i # u + m # m - u # m + q # q - m # q + c # c - q # c + r # r - c # r + s # s - r # s + v # v - s # v + w # w - v # w + f # f - w <sep> # f + <ns> # <ns> - f",
+      "gth": "# f + <ns> # <ns> - f <eos>",
+      "pred": "# f + <ns> # <ns> - f <eos>"
+    },
+    "5": {
+      "input": "# o + w # w - o # w + m # m - w # m + x # x - m # x + p # p - x # p + e # e - p # e + l # l - e # l + f # f - l # f + v # v - f # v + y # y - v # y + j # j - y # j + r # r - j # r + u # u - r # u + d # d - u # d + b # b - d # b + g # g - b # g + a # a - g <sep> # a + <ns> # <ns> - a",
+      "gth": "# a + <ns> # <ns> - a <eos>",
+      "pred": "# a + <ns> # <ns> - a <eos>"
+    },
+    "6": {
+      "input": "# t + k # k - t # k + f # f - k # f + w # w - f # w + u # u - w # u + o # o - u # o + z # z - o # z + j # j - z # j + n # n - j # n + m # m - n # m + r # r - m # r + i # i - r # i + p # p - i # p + c # c - p # c + l # l - c # l + v # v - l # v + x # x - v # x + d # d - x <sep> # d + <ns> # <ns> - d",
+      "gth": "# d + <ns> # <ns> - d <eos>",
+      "pred": "# d + <ns> # <ns> - d <eos>"
+    },
+    "7": {
+      "input": "# p + x # x - p # x + o # o - x # o + s # s - o # s + m # m - s # m + e # e - m # e + t # t - e # t + f # f - t # f + u # u - f # u + g # g - u # g + h # h - g # h + w # w - h # w + d # d - w # d + q # q - d # q + l # l - q # l + i # i - l # i + r # r - i # r + a # a - r # a + z # z - a <sep> # z + <ns> # <ns> - z",
+      "gth": "# z + <ns> # <ns> - z <eos>",
+      "pred": "# z + <ns> # <ns> - z <eos>"
+    },
+    "8": {
+      "input": "# l + z # z - l # z + d # d - z # d + y # y - d # y + r # r - y # r + b # b - r # b + s # s - b # s + k # k - s # k + h # h - k # h + e # e - h # e + g # g - e # g + o # o - g # o + v # v - o # v + f # f - v # f + q # q - f # q + t # t - q # t + w # w - t # w + x # x - w # x + j # j - x # j + a # a - j <sep> # a + <ns> # <ns> - a",
+      "gth": "# a + <ns> # <ns> - a <eos>",
+      "pred": "# a + <ns> # <ns> - a <eos>"
+    },
+    "9": {
+      "input": "# k + l # l - k # l + x # x - l # x + v # v - x # v + a # a - v # a + g # g - a # g + d # d - g # d + n # n - d # n + w # w - n # w + u # u - w # u + t # t - u # t + z # z - t # z + f # f - z # f + o # o - f # o + q # q - o # q + s # s - q # s + p # p - s # p + j # j - p # j + y # y - j # y + i # i - y # i + c # c - i <sep> # c + <ns> # <ns> - c",
+      "gth": "# c + <ns> # <ns> - c <eos>",
+      "pred": "# c + <ns> # <ns> - c <eos>"
+    }
+  }
+}

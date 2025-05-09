@@ -1,0 +1,142 @@
+max_seen_len for model_succ_10_20 = 89
+ val acc, load from 0_300_RNN.pt
+                | Test Loss: 0.0037 
+                | Test Acc: 1.0
+             test acc, load from 0_300_RNN.pt
+                | Test Loss: 4.4192 
+                | Test Acc: 0.3333
+            
+ val acc, load from 1_600_RNN.pt
+                | Test Loss: 0.0013 
+                | Test Acc: 1.0
+             test acc, load from 1_600_RNN.pt
+                | Test Loss: 4.6704 
+                | Test Acc: 0.3556
+            
+ val acc, load from 2_900_RNN.pt
+                | Test Loss: 0.0007 
+                | Test Acc: 1.0
+             test acc, load from 2_900_RNN.pt
+                | Test Loss: 4.7579 
+                | Test Acc: 0.3667
+            
+ val acc, load from 3_1200_RNN.pt
+                | Test Loss: 0.0005 
+                | Test Acc: 1.0
+             test acc, load from 3_1200_RNN.pt
+                | Test Loss: 4.8008 
+                | Test Acc: 0.3667
+            
+ val acc, load from 4_1500_RNN.pt
+                | Test Loss: 0.0004 
+                | Test Acc: 1.0
+             test acc, load from 4_1500_RNN.pt
+                | Test Loss: 4.7876 
+                | Test Acc: 0.3667
+            
+ val acc, load from 5_1800_RNN.pt
+                | Test Loss: 0.0003 
+                | Test Acc: 1.0
+             test acc, load from 5_1800_RNN.pt
+                | Test Loss: 4.7493 
+                | Test Acc: 0.3778
+            
+ val acc, load from 6_2100_RNN.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+             test acc, load from 6_2100_RNN.pt
+                | Test Loss: 4.704 
+                | Test Acc: 0.3778
+            
+ val acc, load from 7_2400_RNN.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+             test acc, load from 7_2400_RNN.pt
+                | Test Loss: 4.68 
+                | Test Acc: 0.3889
+            
+ val acc, load from 8_2700_RNN.pt
+                | Test Loss: 0.0002 
+                | Test Acc: 1.0
+             test acc, load from 8_2700_RNN.pt
+                | Test Loss: 4.6957 
+                | Test Acc: 0.3778
+            
+ val acc, load from 9_3000_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             test acc, load from 9_3000_RNN.pt
+                | Test Loss: 5.1896 
+                | Test Acc: 0.4556
+            
+ val acc, load from 10_3300_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             test acc, load from 10_3300_RNN.pt
+                | Test Loss: 5.026 
+                | Test Acc: 0.5111
+            
+ val acc, load from 11_3600_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             test acc, load from 11_3600_RNN.pt
+                | Test Loss: 5.1118 
+                | Test Acc: 0.5
+            
+ val acc, load from 12_3900_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             test acc, load from 12_3900_RNN.pt
+                | Test Loss: 4.9721 
+                | Test Acc: 0.5111
+            
+ val acc, load from 13_4200_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             test acc, load from 13_4200_RNN.pt
+                | Test Loss: 5.0827 
+                | Test Acc: 0.5667
+            
+ val acc, load from 14_4500_RNN.pt
+                | Test Loss: 0.0001 
+                | Test Acc: 1.0
+             test acc, load from 14_4500_RNN.pt
+                | Test Loss: 5.1274 
+                | Test Acc: 0.5556
+            
+ val acc, load from 15_4800_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             test acc, load from 15_4800_RNN.pt
+                | Test Loss: 5.2284 
+                | Test Acc: 0.5333
+            
+ val acc, load from 16_5100_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             test acc, load from 16_5100_RNN.pt
+                | Test Loss: 5.2202 
+                | Test Acc: 0.5333
+            
+ val acc, load from 17_5400_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             test acc, load from 17_5400_RNN.pt
+                | Test Loss: 5.2192 
+                | Test Acc: 0.5333
+            
+ val acc, load from 18_5700_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             test acc, load from 18_5700_RNN.pt
+                | Test Loss: 5.2083 
+                | Test Acc: 0.5333
+            
+ val acc, load from 19_6000_RNN.pt
+                | Test Loss: 0.0 
+                | Test Acc: 1.0
+             test acc, load from 19_6000_RNN.pt
+                | Test Loss: 5.178 
+                | Test Acc: 0.5222
+            
+Finish testing 0507_211143!

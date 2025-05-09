@@ -3,22 +3,22 @@ from dataclasses import dataclass
 @dataclass
 class Basic_Config:
     seed = 89
-    model = "RNN"
+    model = "LSTM"
     date = "debug"
     hf_cache_dir = '/data/yingshac/hf_cache'
     num_hidden_layers = 1
     vocab = []
     task = ""
-    gendate = ""
+    task_version = ""
     aux_tasks = []
-    hidden_size = 16
-    max_seq_len = 60
+    hidden_size = 64
+    max_seq_len = 450
     freeze_null_emb = False
     dropout = 0.1
     tie_word_embeddings = False
     initializer_range = 0.02
     output_dir = "output"
-    ckpt_dir = "/data/yingshac/model_succ/scripts/rnn/output"
+    ckpt_dir = "/data/yingshac/model_sducc/scripts/rnn/output"
     train_data_path = "/data/yingshac/model_succ/data/"
     eval_data_path = "../../data/"
     test_files = [""]
@@ -30,11 +30,11 @@ class Basic_Config:
     #warmup_steps = 0 #3000
     learning_rate = 0.01
     weight_decay = 0.01
-    num_epochs = 1
-    eval_every_steps = 9375 # 300000 / 32
+    num_epochs = 5
+    eval_every_steps = 15000 # 9375 = 300000 / 32
     load_from_dir = None #"0427_131257" # 
     init_from_ckpt = None
-    shuffle_training_data = False
+    shuffle_training_data = True
 
 
 @dataclass

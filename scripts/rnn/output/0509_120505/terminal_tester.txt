@@ -1,0 +1,142 @@
+max_seen_len for model_succ2_3_20 = 33
+ val acc, load from 0_30_LSTM.pt
+                | Test Loss: 1.6584 
+                | Test Acc: 0.4444
+             test acc, load from 0_30_LSTM.pt
+                | Test Loss: 1.6631 
+                | Test Acc: 0.4444
+            
+ val acc, load from 1_60_LSTM.pt
+                | Test Loss: 0.7307 
+                | Test Acc: 0.7778
+             test acc, load from 1_60_LSTM.pt
+                | Test Loss: 0.7284 
+                | Test Acc: 0.7903
+            
+ val acc, load from 2_90_LSTM.pt
+                | Test Loss: 0.4041 
+                | Test Acc: 0.8519
+             test acc, load from 2_90_LSTM.pt
+                | Test Loss: 0.4564 
+                | Test Acc: 0.8921
+            
+ val acc, load from 3_120_LSTM.pt
+                | Test Loss: 0.0822 
+                | Test Acc: 1.0
+             test acc, load from 3_120_LSTM.pt
+                | Test Loss: 0.2251 
+                | Test Acc: 0.9655
+            
+ val acc, load from 4_150_LSTM.pt
+                | Test Loss: 0.0275 
+                | Test Acc: 1.0
+             test acc, load from 4_150_LSTM.pt
+                | Test Loss: 0.0836 
+                | Test Acc: 0.9954
+            
+ val acc, load from 5_180_LSTM.pt
+                | Test Loss: 0.014 
+                | Test Acc: 1.0
+             test acc, load from 5_180_LSTM.pt
+                | Test Loss: 0.0316 
+                | Test Acc: 1.0
+            
+ val acc, load from 6_210_LSTM.pt
+                | Test Loss: 0.0087 
+                | Test Acc: 1.0
+             test acc, load from 6_210_LSTM.pt
+                | Test Loss: 0.0168 
+                | Test Acc: 1.0
+            
+ val acc, load from 7_240_LSTM.pt
+                | Test Loss: 0.006 
+                | Test Acc: 1.0
+             test acc, load from 7_240_LSTM.pt
+                | Test Loss: 0.011 
+                | Test Acc: 1.0
+            
+ val acc, load from 8_270_LSTM.pt
+                | Test Loss: 0.0047 
+                | Test Acc: 1.0
+             test acc, load from 8_270_LSTM.pt
+                | Test Loss: 0.008 
+                | Test Acc: 1.0
+            
+ val acc, load from 9_300_LSTM.pt
+                | Test Loss: 0.0038 
+                | Test Acc: 1.0
+             test acc, load from 9_300_LSTM.pt
+                | Test Loss: 0.0062 
+                | Test Acc: 1.0
+            
+ val acc, load from 10_330_LSTM.pt
+                | Test Loss: 0.0031 
+                | Test Acc: 1.0
+             test acc, load from 10_330_LSTM.pt
+                | Test Loss: 0.0051 
+                | Test Acc: 1.0
+            
+ val acc, load from 11_360_LSTM.pt
+                | Test Loss: 0.0027 
+                | Test Acc: 1.0
+             test acc, load from 11_360_LSTM.pt
+                | Test Loss: 0.0042 
+                | Test Acc: 1.0
+            
+ val acc, load from 12_390_LSTM.pt
+                | Test Loss: 0.0024 
+                | Test Acc: 1.0
+             test acc, load from 12_390_LSTM.pt
+                | Test Loss: 0.0036 
+                | Test Acc: 1.0
+            
+ val acc, load from 13_420_LSTM.pt
+                | Test Loss: 0.002 
+                | Test Acc: 1.0
+             test acc, load from 13_420_LSTM.pt
+                | Test Loss: 0.0031 
+                | Test Acc: 1.0
+            
+ val acc, load from 14_450_LSTM.pt
+                | Test Loss: 0.0018 
+                | Test Acc: 1.0
+             test acc, load from 14_450_LSTM.pt
+                | Test Loss: 0.0026 
+                | Test Acc: 1.0
+            
+ val acc, load from 15_480_LSTM.pt
+                | Test Loss: 0.0016 
+                | Test Acc: 1.0
+             test acc, load from 15_480_LSTM.pt
+                | Test Loss: 0.0023 
+                | Test Acc: 1.0
+            
+ val acc, load from 16_510_LSTM.pt
+                | Test Loss: 0.0014 
+                | Test Acc: 1.0
+             test acc, load from 16_510_LSTM.pt
+                | Test Loss: 0.002 
+                | Test Acc: 1.0
+            
+ val acc, load from 17_540_LSTM.pt
+                | Test Loss: 0.0013 
+                | Test Acc: 1.0
+             test acc, load from 17_540_LSTM.pt
+                | Test Loss: 0.0018 
+                | Test Acc: 1.0
+            
+ val acc, load from 18_570_LSTM.pt
+                | Test Loss: 0.0012 
+                | Test Acc: 1.0
+             test acc, load from 18_570_LSTM.pt
+                | Test Loss: 0.0016 
+                | Test Acc: 1.0
+            
+ val acc, load from 19_600_LSTM.pt
+                | Test Loss: 0.0011 
+                | Test Acc: 1.0
+             test acc, load from 19_600_LSTM.pt
+                | Test Loss: 0.0015 
+                | Test Acc: 1.0
+            
+Finish testing 0509_120505!
